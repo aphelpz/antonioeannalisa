@@ -1,0 +1,187 @@
+body{
+   text-align: center;
+   background-color: #F7F1E5;
+   font-family: 'Playfair Display', serif;
+
+}
+
+h5, h7 {
+   padding-top: 5rem;
+   font-style: italic;
+   line-height: 2rem;
+}
+
+/**** Elements ****/
+
+   /* Frasche */
+   #frasche {
+      background: transparent url(\Immagini\Frasche.png) repeat-x;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 220px;
+      z-index: 1;
+   }
+ 
+   /* Monogramma */
+   #monogramma {
+      position: relative;
+      z-index: 200;
+   }
+ 
+   /* Maps */
+   .maps{
+      padding-top: 5rem;
+   }
+
+   /* Border */
+   .border-top {
+      margin: auto;
+      width: 30rem;
+
+      padding-bottom: 5rem;
+      --bs-border-opacity: 1;
+      border-color: gold rgba(var(--bs-success-rgb), var(--bs-border-opacity)) !important;
+    }
+    
+   .section{
+      font-family: 'Richard Signatera', italic;
+      font-size: 5rem;
+      color: #f8cde2;
+      padding-top: 5rem;
+      padding-bottom: 3rem;
+   }
+
+   .std{
+      font-family: 'Richard Signatera', italic;
+      font-size: 5rem;
+      color: #f8cde2;
+      padding-top: 5rem;
+   }
+
+
+/*** *** *** ***/
+
+
+
+/**** Title Section ****/
+
+   .frasche-title{
+      padding-top: 7rem;
+      margin-bottom: 12rem;
+   }
+
+   .banner{
+      padding-top: 2rem;
+      font-family: 'Playfair Display', serif;
+      background: radial-gradient(circle, #f8cde2 0%,  #fdb2d6 20%, #f9cbff 40%, #96bfa1 60%, #B39DDB 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      background-size: 400%;
+      animation: gradient 10s linear infinite alternate;
+   }
+   @keyframes gradient {
+      0% {background-position: 0%;}
+      100% {background-position: 100%;}
+   }
+   
+   .title-paragraph{
+      font-family: 'Richard Signatera', italic;
+      font-size: 2rem;
+      padding-top: 2rem;
+      padding-bottom: 7rem;
+   }
+
+/*** *** *** ***/
+
+
+
+/**** Middle Section *****/
+.cuore-img{
+   height: 14rem;
+}
+
+.prog-img-right{
+   height: 10rem;
+   padding-top: 1.5rem;
+}
+
+.prog-img-left{
+   height: 10rem;
+   padding-top: 1.5rem;
+}
+
+.timeline{
+   padding-top: 8rem;
+}
+
+#calendario{
+   padding-bottom: 10rem;
+}
+
+#cerimonia{
+   padding-bottom: 10rem;
+}
+
+#location{
+   padding-bottom: 10rem;
+}
+
+#lista-nozze{
+   padding-bottom: 10rem;
+}
+
+#contributo{
+   padding-bottom: 10rem;
+}
+
+#programma{
+   padding-bottom: 10rem;
+}
+
+.iban{
+   font-family: 'Playfair Display', serif;
+   font-size: 1.5rem;
+}
+
+/*** *** *** ***/
+
+
+
+/**** Footer Sections ****/
+
+.footer-text{
+   padding-top: 1.5rem;
+   background: radial-gradient(circle, #f8cde2 0%,  #fdb2d6 20%, #f9cbff 40%, #96bfa1 60%, #B39DDB 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+   background-size: 400%;
+   animation: gradient 10s linear infinite alternate;
+}
+@keyframes gradient {
+   0% {background-position: 0%;}
+   100% {background-position: 100%;}
+}
+/*** *** *** ***/
+
+
+
+
+
+/* gradient-background class is not used at the moment*/
+   .gradient-background {
+      background: linear-gradient(300deg, #96bfa1, #f8cde2);
+      background-size: 180% 180%;
+      animation: gradient-animation 7s ease infinite;
+   }
+   @keyframes gradient-animation {
+      0% { background-position: 0% 50%;}
+      50% { background-position: 100% 50%;}
+      100% { background-position: 0% 50%;}
+   }
+/*** *** *** ***/
+
+
