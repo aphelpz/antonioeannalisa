@@ -38,7 +38,7 @@ h5, h7 {
    /* Border */
    .border-top {
       margin: auto;
-      width: 30rem;
+      width: 20rem;
 
       padding-bottom: 5rem;
       --bs-border-opacity: 1;
@@ -104,13 +104,13 @@ h5, h7 {
 }
 
 .prog-img-right{
-   height: 10rem;
-   padding-top: 1.5rem;
+   height: 5rem;
+   margin-top: 4.5rem;
 }
 
 .prog-img-left{
-   height: 10rem;
-   padding-top: 1.5rem;
+   height: 5rem;
+   margin-top: 4.5rem;
 }
 
 .timeline{
@@ -144,6 +144,7 @@ h5, h7 {
 .iban{
    font-family: 'Playfair Display', serif;
    font-size: 1.5rem;
+   line-height: 1rem;
 }
 
 /*** *** *** ***/
