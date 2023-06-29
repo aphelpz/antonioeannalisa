@@ -90,7 +90,7 @@ h5, h7 {
    .title-paragraph{
       font-family: 'Richard Signatera', italic;
       font-size: 2rem;
-      padding-top: 2rem;
+      padding-top: 1.5rem;
       padding-bottom: 7rem;
    }
 
@@ -142,7 +142,7 @@ h5, h7 {
 }
 
 .iban{
-   font-family: 'Playfair Display', serif;
+   font-family: 'Playfair Display';
    font-size: 1.5rem;
    line-height: 1rem;
 }
