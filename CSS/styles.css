@@ -142,7 +142,7 @@ h5, h7 {
 }
 
 .iban{
-   font-family: 'Playfair Display';
+   font-family: 'Roboto', sans-serif;
    font-size: 1.5rem;
    line-height: 1rem;
 }
